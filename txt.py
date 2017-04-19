@@ -45,7 +45,7 @@ def read(screen_region):
 
 if __name__ == '__main__':
     while True:
-        txt = read((850*2,392*2,(1250-850)*2,(416-392)*2))
+        txt = read((850*2,370*2,(1250-850)*2,(416-370)*2))
 
         print(txt)
         p.typewrite(txt)
