@@ -5,6 +5,7 @@ import pyocr.builders
 import pyautogui as p
 import webbrowser
 import time
+"""タイピング自動化"""
 
 tools = pyocr.get_available_tools()
 tool = tools[0]
